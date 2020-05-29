@@ -22,17 +22,17 @@ a:visited {
 }
 
 h1 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'DejaVu Sans', sans-serif;
     font-size: 56px;
 }
 
 h2 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'DejaVu Sans', sans-serif;
     font-size: 32px;
 }
 
 body {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'DejaVu Serif', serif;
     max-width: 40em;
     padding: 5px;
     margin: auto;
