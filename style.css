@@ -14,7 +14,7 @@ a.header:hover {
 }
 
 a:link {
-    color: darkslategrey;
+    color: black;
 }
 
 a:visited {
@@ -32,9 +32,15 @@ h2 {
 }
 
 body {
-    font-family: 'DejaVu Serif', serif;
+    font-family: 'DejaVu Sans', sans-serif;
     max-width: 40em;
     padding: 5px;
     margin: auto;
     font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
