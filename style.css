@@ -1,24 +1,24 @@
 a.header:link {
-    color: black;
+    color: #016e77;
     text-decoration: none;
 }
 
 a.header:visited {
-    color: black;
+    color: #016e77;
     text-decoration: none;
 }
 
 a.header:hover {
-    color: black;
+    color: #016e77;
     text-decoration: underline;
 }
 
 a:link {
-    color: black;
+    color: #016e77;
 }
 
 a:visited {
-    color: black;
+    color: #016e77;
 }
 
 h1 {
@@ -38,6 +38,7 @@ h3 {
 
 body {
     font-family: sans-serif;
+    color: #383838;
     max-width: 30em;
     padding: 5px;
     margin: auto;
