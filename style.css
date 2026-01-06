@@ -1,15 +1,10 @@
 body {background-color: #0d0d0d;}
 
 h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: Avenir, Montserrat, source-sans-pro, sans-serif;
   font-size: 60px;
-  color: #e8e8e8;
-}
-
-.poppins-semibold {
-  font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-style: normal;
+  color: #e8e8e8;
 }
 
 .center {
