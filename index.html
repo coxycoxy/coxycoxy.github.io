@@ -1,19 +1,68 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chris Cox</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Source+Serif+4:wght@400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      background-color: #0f1117;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .logo {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    }
+    .logo::before, .logo::after {
+      content: '';
+      display: block;
+      width: 3rem;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, #f0ece4, transparent);
+    }
+    .logo::before { margin-bottom: 1.5rem; }
+    .logo::after  { margin-top: 1.5rem; }
+    .name {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      color: #f0ece4;
+      letter-spacing: 0.04em;
+      line-height: 1.15;
+    }
+    .divider {
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #f0ece455, transparent);
+      margin: 0.65rem 0;
+    }
+    .title {
+      font-family: 'Source Serif 4', serif;
+      font-weight: 400;
+      font-size: clamp(0.85rem, 1.8vw, 1.05rem);
+      color: #f0ece4;
+      letter-spacing: 0.2em;
+      line-height: 1.7;
+    }
+  </style>
 </head>
-
-<title>Chris Cox</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <body>
-    <main>
-	<div class="center">
-      Chris Cox
-	</div>
-    </main>
+  <div class="logo">
+    <span class="name">Chris Cox</span>
+    <div class="divider"></div>
+    <span class="title">Senior Leader</span>
+    <span class="title">Technology Services</span>
+  </div>
 </body>
-
 </html>
